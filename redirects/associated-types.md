@@ -1,8 +1,8 @@
-% Associated Types
+% İlişkili Türler (Associated Types)
 
-<small>There is a new edition of the book and this is an old link.</small>
+<small>Kitabın yeni bir sürümü mevcuttur, bu eski bir bağlantıdır.</small>
 
-> Associated types are a way of associating a type placeholder with a trait such that the trait method definitions can use these placeholder types in their signatures.
+> İlişkili türler, bir tür yer tutucusunu (type placeholder) davranış yöntemi (trait method) tanımlarının bu yer tutucu türleri kendi imzalarında kullanabilecekleri şekilde iliştirme yoludur.
 
 ```rust
 pub trait Iterator {
@@ -13,5 +13,5 @@ pub trait Iterator {
 
 ---
 
-You can find the latest version of this information
+Güncel haline bu bağlantıdan ulaşılabilir.
 [here](ch20-02-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types).
