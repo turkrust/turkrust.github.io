@@ -7,5 +7,5 @@
 
 İkinci sürümü tamamen yeniden yazılmıştır. Hala yazım süreci devam etmektedir;
 buna rağmen Rust dilinin çoğunu öğrenmek için kullanılabilir; önce ikinci sürümü
-okumanızı, ardından daha derinleşmek için birinci sürümüne göz atmanızı
+okumanızı, ardından daha fazla derinleşmek için birinci sürümüne göz atmanızı
 öneriyoruz.
