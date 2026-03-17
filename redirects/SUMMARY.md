@@ -1,11 +1,11 @@
-% The Rust Programming Language
+% Rust Programlama Dili
 
-There are two editions of "The Rust Programming Language":
+"Rust Programlama Dili" kitabının iki sürümü vardır:
 
-* [First edition](first-edition/index.html)
-* [Second edition](second-edition/index.html)
+* [Birinci sürüm](birinci-surum/index.html)
+* [İkinci sürüm](ikinci-surum/index.html)
 
-The second edition is a complete re-write. It is still under construction;
-though it is far enough along to learn most of Rust; we suggest reading the
-second edition and then checking out the first edition later to pick up some of
-the more esoteric parts of the language.
+İkinci sürümü tamamen yeniden yazılmıştır. Hala yazım süreci devam etmektedir;
+buna rağmen Rust dilinin çoğunu öğrenmek için kullanılabilir; önce ikinci sürümü
+okumanızı, ardından daha fazla derinleşmek için birinci sürümüne göz atmanızı
+öneriyoruz.
