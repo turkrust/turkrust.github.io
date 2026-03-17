@@ -1,30 +1,28 @@
-# The Rust Programming Language
+# Rust Programlama Dili
 
-_by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the
-Rust Community_
+_Steve Klabnik, Carol Nichols, and Chris Krycho tarafından, Rust Topluluğu'nun
+yardımları ile._
 
-This version of the text assumes you’re using Rust 1.90.0 (released 2025-09-18)
-or later with `edition = "2024"` in the *Cargo.toml* file of all projects to
-configure them to use Rust 2024 Edition idioms. See the [“Installation” section
-of Chapter 1][install]<!-- ignore --> for instructions on installing or
-updating Rust, and see [Appendix E][appendix-e]<!-- ignore --> for information
-on editions.
+Kitabın bu baskısı bütün projelerde *Cargo.toml* dosyasında `edition = "2024"`
+yapılandırmasının yapılmış olduğunu ve Rust 1.90.0 (2025-09-18 tarihli sürüm)
+veya daha güncel bir sürümün kullanıldığını varsaymaktadır. Rust kurulumu veya
+güncellemesi hakkındaki talimatlar için [Bölüm 1'in “Kurulum” kısmı'na][install]<!-- ignore -->,
+baskı hakkında bilgi almak için ise [Ek E'ye] [appendix-e]<!-- ignore --> başvurun.
 
-The HTML format is available online at
-[https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
-and offline with installations of Rust made with `rustup`; run `rustup doc
---book` to open.
+Kitabın HTML biçimi [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
+adresinde mevcuttur. Kitabı çevrimdışı okumak için `rustup doc --book` komutu
+çalıştırılabilir.
 
-Several community [translations] are also available.
+Ayrıca birçok topluluk [çevirisi][translations] mevcuttur.
 
-This text is available in [paperback and ebook format from No Starch
-Press][nsprust].
+Bu kitaba [ciltsiz kitap ve e-kitap biçiminde No Starch Press][nsprust] aracılığıyla
+ulaşılabilir.
 
 [install]: ch01-01-installation.html
 [appendix-e]: appendix-05-editions.html
 [nsprust]: https://nostarch.com/rust-programming-language-3rd-edition
 [translations]: appendix-06-translation.html
 
-> **🚨 Want a more interactive learning experience? Try out a different version
-> of the Rust Book, featuring: quizzes, highlighting, visualizations, and
-> more**: <https://rust-book.cs.brown.edu>
+> **🚨 Daha etkileşimli bir deneyime ne dersiniz? Kitabımızın bir diğer
+> sürümü, küçük testler, metin vurgulama ve görselleştirmeler sunuyor.**
+> : <https://rust-book.cs.brown.edu>
