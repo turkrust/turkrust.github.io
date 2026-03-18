@@ -1,4 +1,11 @@
-# Foreword
+# Önsöz
+
+Rust programlama dili son birkaç yılda büyük bir yol kat etti, ilk çıkışına ve
+kuluçka sürecine küçük ve henüz oluşmuş hevesli topluluğu ile başlayıp dünyanın
+en sevilen ve talep gören programlama dillerinden biri haline geldi. Geri dönüp
+bakıldığında Rust'ın, sunduğu güç ve vaatler ile bakışları toplayacağı ve sistem
+programlama dünyasında sağlam bir dayanak noktası haline geleceği öngörülebilirdi.
+Fakat öngörülemez olan bir şey varsa o da endüstriler arasında büyük çaplı benimsenmeyi
 
 The Rust programming language has come a long way in a few short years, from
 its creation and incubation by a small and nascent community of enthusiasts, to
@@ -9,13 +16,24 @@ was the global growth in interest and innovation that permeated through open
 source communities and catalyzed wide-scale adoption across industries.
 
 At this point in time, it is easy to point to the wonderful features that Rust
-has to offer to explain this explosion in interest and adoption. Who doesn’t
-want memory safety, *and* fast performance, *and* a friendly compiler, *and*
-great tooling, among a host of other wonderful features? The Rust language you
-see today combines years of research in systems programming with the practical
-wisdom of a vibrant and passionate community. This language was designed with
-purpose and crafted with care, offering developers a tool that makes it easier
-to write safe, fast, and reliable code.
+has to offer to explain this explosion in interest and adoption. 
+
+Kim istemez ki diğer bütün muhteşem özelliklerin yanı sıra bellek güvenliği
+*ve* hızlı performans *ve* yardımsever bir derleyici *ve* harika bir araç seti
+bir arada olmasın? Günümüzde tanık olduğunuz Rust sistem programlama alanında
+yıllar süren araştırmaların birikmişliği ile canlı ve ihtiraslı bir topluluğun
+pratik bilgeliğini harmanlamıştır. Bu dil bir amaç uğruna tasarlandı ve itinayla
+hazırlandı, geliştiricilerine güvenli, hızlı ve emniyetli kod yazmak için bir
+araç olarak sunuldu.
+
+Fakat Rust'ı gerçekten özel kılan şey; sizlere hedeflerinize ulaşmanızda güç
+sağlamak üzere üstlendiği roldür. Bu dil sizin *başarmanızı* arzulayan bir dildir
+ve gücün esası on
+
+Kitabın önceki baskısından bu yana Rust hakikaten küresel ve güvenilen bir dil
+haline geldi. Rust Projesi artık Rust Vakfı tarafından sağlam bir şekilde
+desteklenmekte ayrıca Rust'ın güvenli, kararlı ve sürdürülebilir olması amacıyla
+kilit girişimlere yatırımda bulunulmakta.
 
 But what makes Rust truly special is its roots in empowering you, the user, to
 achieve your goals. This is a language that wants you to succeed, and the
@@ -42,6 +60,6 @@ unique and powerful tool. By picking up this book, you’re not just learning a
 new programming language—you’re joining a movement to make software better,
 safer, and more enjoyable to work with.
 
-Welcome to the Rust community!
+Rust Topluluğuna Hoş Geldiniz!
 
-- Bec Rumbul, Executive Director of the Rust Foundation
+- Bec Rumbul, Rust Vakfı Yönetici Müdürü
