@@ -22,8 +22,8 @@ Kim istemez ki diğer bütün muhteşem özelliklerin yanı sıra bellek güvenl
 *ve* hızlı performans *ve* yardımsever bir derleyici *ve* harika bir araç seti
 bir arada olmasın? Günümüzde tanık olduğunuz Rust sistem programlama alanında
 yıllar süren araştırmaların birikmişliği ile canlı ve ihtiraslı bir topluluğun
-pratik bilgeliğini harmanlamıştır. Bu dil bir amaç uğruna tasarlandı ve itinayla
-hazırlandı, geliştiricilerine güvenli, hızlı ve emniyetli kod yazmak için bir
+pratik bilgeliğini harmanlamıştır. Bu dil bir amaç uğruna tasarlandı ve özenle
+hazırlandı, geliştiricilerine güvenli, hızlı ve emniyetli kod yazabilecekleri bir
 araç olarak sunuldu.
 
 Fakat Rust'ı gerçekten özel kılan şey; sizlere hedeflerinize ulaşmanızda güç
