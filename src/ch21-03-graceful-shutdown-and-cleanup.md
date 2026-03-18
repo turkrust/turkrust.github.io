@@ -1,12 +1,12 @@
-## Graceful Shutdown and Cleanup
+## Düzgün Kapatma ve Temizleme
 
-The code in Listing 21-20 is responding to requests asynchronously through the
-use of a thread pool, as we intended. We get some warnings about the `workers`,
-`id`, and `thread` fields that we’re not using in a direct way that reminds us
-we’re not cleaning up anything. When we use the less elegant
-<kbd>ctrl</kbd>-<kbd>C</kbd> method to halt the main thread, all other threads
-are stopped immediately as well, even if they’re in the middle of serving a
-request.
+Liste 21-20'deki kod, isteklere iş parçacığı havuzu aracılığıyla eşzamansız
+olarak cevap vermektedir. `workers`, `id`, ve `thread` bölümleri hakkında bize
+herhangi bir şeyi temizlemediğimizi hatırlatan birkaç hata almaktayız. Daha
+hantal bir yöntem olan <kbd>ctrl</kbd>-<kbd>C</kbd> ile ana iş parçacığı
+durdurulduğunda ise henüz bir isteğe cevap veriyor olabilecek diğer bütün iş
+parçacıkları da aniden durmaktadır.
+
 
 Next, then, we’ll implement the `Drop` trait to call `join` on each of the
 threads in the pool so that they can finish the requests they’re working on
@@ -15,9 +15,9 @@ stop accepting new requests and shut down. To see this code in action, we’ll
 modify our server to accept only two requests before gracefully shutting down
 its thread pool.
 
-One thing to notice as we go: None of this affects the parts of the code that
-handle executing the closures, so everything here would be the same if we were
-using a thread pool for an async runtime.
+İlerledikçe farkedebileceğimiz gibi hiçbiri kapatmaları çalıştıran kod
+parçacıklarını etkilememektedir, yani burada eşzamansız çalışma zamanı için
+iş parçacığı kullanılmış olsaydı her şey aynı kalırdı.
 
 ### Implementing the `Drop` Trait on `ThreadPool`
 
@@ -66,6 +66,8 @@ something you know will always be present in an `Option` as a workaround like
 this, it’s a good idea to look for alternative approaches to make your code
 cleaner and less error-prone.
 
+Bu durumda `Vec::drain` yöntemi daha iyi bir seçenektir. `Vec::drain` vektörden
+hangi elemanların kaldırılacağını belirleyen bir aralık değişkeni alır ve o ele
 In this case, a better alternative exists: the `Vec::drain` method. It accepts
 a range parameter to specify which items to remove from the vector and returns
 an iterator of those items. Passing the `..` range syntax will remove *every*
